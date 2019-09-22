@@ -17,6 +17,16 @@ function init() {
   body.addEventListener('keydown');
   
   function keyDownHandler(e){
+    const key = e.key;
     
+    if(key === codes[index]){
+      index++;
+      
+      if(index == codes.length){
+        alert("Konami Code!!!!!")
+      }
+    } else {
+      index = 0;
+    }
   }
 }
