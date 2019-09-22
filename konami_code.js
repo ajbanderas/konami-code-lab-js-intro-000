@@ -23,7 +23,7 @@ function init() {
       index++;
       
       if(index == codes.length){
-        alert("Konami Code!!!!!")
+        alert("Konami Code!!!!!");
       }
     } else {
       index = 0;
