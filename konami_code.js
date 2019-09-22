@@ -30,5 +30,5 @@ function init() {
   }
 }
 
-body.addEventListener('keydown', keyDownHandler());
+body.addEventListener('keydown', keyDownHandler(e));
 
