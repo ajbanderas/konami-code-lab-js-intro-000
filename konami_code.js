@@ -28,7 +28,7 @@ function init() {
       index = 0;
     }
   }
+  body.addEventListener('keydown', keyDownHandler);
 }
 
-body.addEventListener('keydown', keyDownHandler);
 
