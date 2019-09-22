@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   let index = 0;
-  const body = document.querySelector("body")
+  const body = document.querySelector("body");
   
   function keyDownHandler(e){
     const key = e.key;
