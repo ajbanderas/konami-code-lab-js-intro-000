@@ -13,5 +13,5 @@ const codes = [
 
 function init() {
   let index = [];
-  document.body.addEventListener('keydown', function(event));
+  document.getElementByID('body').addEventListener('keydown', function(event));
 }
