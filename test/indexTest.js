@@ -1,6 +1,6 @@
 const expect = chai.expect;
 
-/*describe("index.js", () => {
+describe("index.js", () => {
 
   const codes = [
     "ArrowUp",
@@ -19,9 +19,9 @@ const expect = chai.expect;
     const keyboardEvent = new KeyboardEvent("keydown", { key });
     document.body.dispatchEvent(keyboardEvent);
   }
-  */
+
   init()
-/*
+
   describe("Konami code", () => {
     
     const spy = sinon.stub(window, "alert");
@@ -47,4 +47,3 @@ const expect = chai.expect;
     });
   });
 });
-*/
