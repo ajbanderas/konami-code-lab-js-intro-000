@@ -28,5 +28,5 @@ function init() {
       index = 0;
     }
   }
-   body.addEventListener('keydown', keyDownHandler(e));
 }
+   body.addEventListener('keydown', keyDownHandler(e));
