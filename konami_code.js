@@ -13,5 +13,5 @@ const codes = [
 
 function init() {
   let index = [];
-  document.body.
+  document.body.addEventListener('')
 }
